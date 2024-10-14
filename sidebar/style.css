@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f9f9f9;
+  font-family: intr, sans-serif;
+}
+.saidebar {
+  padding: 40px 27px;
+  border: 1px solid black;
+  width: 246px;
+  height: 100vh;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+}
+.saidebar__logo {
+  width: 138px;
+  height: 17px;
+}
+.saidebar__container {
+  margin-top: 43px;
+}
+.nav {
+  list-style: none;
+}
+.nav__item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.nav__item--active {
+  background: #1b59f820;
+  color: blue;
+}
+
+.small-title {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.profile {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  left: 0;
+}
+.line {
+  width: 210px;
+  height: 1px;
+  background: red;
+  padding: 0 16px 0 20px;
+}
+.profile__uzer {
+  margin-top: 31px;
+  padding: 0 18px;
+}
+.profile__name {
+  font-size: 14px;
+  font-weight: 700;
+  width: 90px;
+  height: 18px;
+}
+.profile__email {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
